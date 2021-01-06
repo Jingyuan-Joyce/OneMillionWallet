@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Wallet App</h1>
+    <h4>Powered by: <img src="https://www.covalenthq.com/static/images/covalent-logo.png" alt="Covalent Logo" style="width:7%;height:7%;"></h4>
+    <br>
+    Enter wallet address or ENS: <input type="text" id="address" value="demo.eth">
+    <button onclick="getData()">Get Wallet Balance</button>
+
+    <h3>Metadata</h3>
+    <ul id="metadata"></ul>
+
+    <h3>Choose the crypto: </h3>
+    <select id = "cryptotype">
+      <option value = "all">all</option>
+      <option value = "cryptocurrency">cryptocurrency</option>
+      <option value = "stablecoin">stablecoin</option>
+      <option value = "nft">nft</option>
+      <option value = "dust">dust</option>
+    </select>
+    <h2>Result</>
+
+    <table id="tokenTable">
+        <tbody>
+        </tbody>
+    </table>
+    
+  </body>
+</html
