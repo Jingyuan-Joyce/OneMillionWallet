@@ -1,1 +1,2 @@
 # OneMillionWallet
+Covalent initial task
