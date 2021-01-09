@@ -1,3 +1,3 @@
-# OneMillionWallet
+# Covalent - OneMillionWallet
 
-Wallet balance and transfer transaction App
+Wallet balance and Transfer Transaction App
