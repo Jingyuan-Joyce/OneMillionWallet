@@ -8,16 +8,17 @@
   </head>
   <body>
     <script src="script.js"></script>
-    <h1>Wallet App</h1>
-    <h4>Powered by: <img src="https://www.covalenthq.com/static/images/covalent-logo.png" alt="Covalent Logo" style="width:7%;height:7%;"></h4>
+    
+    <h1 style="color: purple; font-family:verdana; font-size:160%">Wallet and Transfer App</h1>
+    <h4>Powered by: <img src="https://www.covalenthq.com/static/images/covalent-logo.png" alt="Covalent Logo" style="width:15%;height:15%;"></h4>
     <br>
     Enter wallet address or ENS: <input type="text" id="address" value="demo.eth">
     <button onclick="getData()">Get Wallet Balance</button>
 
-    <h3>Metadata</h3>
+    <h3 style="color: purple;font-family:verdana">Metadata</h3>
     <ul id="metadata"></ul>
 
-    <h3>Choose the crypto: </h3>
+    <h3 style="color: purple;font-family:verdana">Choose the crypto: </h3>
     <select id = "cryptotype">
       <option value = "all">all</option>
       <option value = "cryptocurrency">cryptocurrency</option>
@@ -25,12 +26,41 @@
       <option value = "nft">nft</option>
       <option value = "dust">dust</option>
     </select>
-    <h2>Result</>
+    <h3 style="color: purple;font-family:verdana">Result</h3>
 
-    <table id="tokenTable">
+    <h5>Please click the token image to see the transfer transcations under each token </h5>
+
+    <style>
+      .content-table{
+        border-collapse: collapse;
+        margin: 25px 0;
+        front-size: 0.9em;
+        min-width: 400px;
+      }
+
+      .content-table tbody th {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+      }
+
+      .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+      
+      .content-table tbody tr: nth-of-type(even){
+        background-color: #f3f3f3;
+
+      }
+
+    </style>
+
+    <table id="tokenTable" class = "content-table">
         <tbody>
         </tbody>
     </table>
+
+    
     
   </body>
 </html
