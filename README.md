@@ -1,2 +1,3 @@
 # OneMillionWallet
-Covalent initial task
+
+Wallet balance and transfer transaction App
